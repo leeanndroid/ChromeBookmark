@@ -25,9 +25,9 @@ addToSiteList('<Website Name>', '<URL>');
 /* --------------------------------- */
 
 /* ADD YOUR SITES HERE. 3 Sites have been added by defualt. You can edit/delete/add as per your widh */
-addToSiteList('GMail','http://www.gmail.com');
-addToSiteList('Facebook','http://www.facebook.com');
-addToSiteList('Twitter','http://www.twitter.com');
+addToSiteList(‘Home’,’https://gs0.lightning.force.com/one/one.app#/home?t=1440465476527');
+addToSiteList(‘App Builder,’https://gs0.lightning.force.com/visualEditor/appBuilder.app?pageId=0M0B000000001pOKAQ&retUrl=%2fone%2fone.app%23%2fsetup%2fpage%3fnodeId%3dFlexiPageList%26address%3d%2f_ui%2fflexipage%2fui%2fFlexiPageFilterListPage');
+addToSiteList(‘Account’,’https://gs0.lightning.force.com/one/one.app#/sObject/001B0000004ZlOVIA0/view?t=1440466329953');
 
 var siteNo = window.prompt(sitePrompt(),'Enter URL number to open');
 if(siteNo != null)
